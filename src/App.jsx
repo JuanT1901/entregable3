@@ -16,8 +16,8 @@ function App() {
   }, []);
 
   return (
-    <main>
-      <Location location={location}/>
+    <main className="px-4 min-h-screen text-white font-['Fira_Code'] pt-5">
+      <Location location={location} setLocation={setLocation}/>
       <ResidentsList residents={location?.residents ?? []}/>
     </main>
   );
