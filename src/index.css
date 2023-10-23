@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 body {
-  background: url(background-page.png) top/100% repeat-y;
+  background-image: url(/background-page.png) top/100% repeat-y;
 }
